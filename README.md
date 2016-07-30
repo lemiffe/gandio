@@ -5,8 +5,8 @@ gand.io
 
 - Install Docker (https://docs.docker.com/engine/installation/)
 - Install docker-compose
-- Docker container for mongo: go to docker-mongo and run start.sh
-- Docker container for nginx: go to docker-nginx and run docker-compose up -d
+- Docker container for mongo: run install-docker-mongo.sh
+- Docker container for nginx: run install-docker.nginx.sh
 - Docker container for flask: N/A
 
 ### Setting up the development environment
