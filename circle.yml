@@ -6,3 +6,6 @@ deployment:
     branch: production
     commands:
       - ./deploy_prod.sh
+test:
+  override:
+    - php -r "echo 'test';"
