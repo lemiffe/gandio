@@ -2,10 +2,10 @@ checkout:
   post:
     - echo "test"
 deployment:
-  production:
-    branch: production
+  master:
+    branch: master
     commands:
-      - ./deploy_prod.sh
+      - ./deploy.sh
 test:
   override:
     - php -r "echo 'test';"
