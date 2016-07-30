@@ -1,3 +1,8 @@
 checkout:
   post:
     - echo "test"
+deployment:
+  production:
+    branch: production
+    commands:
+      - ./deploy_prod.sh
