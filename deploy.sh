@@ -1,5 +1,5 @@
 #!/bin/sh
 
-# Daily Data Backup
-rsync -av ./ lemiffe@104.131.32.146:/home/lemiffe/gandio
+value=`cat deploy.cfg`
+rsync -av ./ "$value"
 echo "Deploy finished!"
