@@ -12,6 +12,7 @@ gand.io
 ### Setting up the development environment
 
 - N/A (config files?)
+- Test
 
 ### Deploying
 
